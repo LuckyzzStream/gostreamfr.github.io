@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  	<meta name="theme-color" content="#222222">
+  	<meta name="author" content="Extrayer">
+  	<meta name="description" content="Une WebTV pas comme les autres !">
+  	<meta property="og:type" content="website">
+  	<meta property="og:title" content="GOSTREAM">
+  	<meta property="og:description" content="Une WebTV pas comme les autres !">
+  	<meta property="og:url" content="https://gostream.fr">
+
+	<title>GoStream</title>
+	<link rel="icon" type="image/png" href="logo.png">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+
+	<div id="page">
+		<header id="header">
+			<a href="index.html" class="logo"><img src="logo_text.png"></a>
+
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="programmation.html">Programmation</a></li>
+				<li><a href="equipe.html">Equipe</a></li>
+				<li><a href="partenaires.html">Partenaires</a></li>
+				<li><a href="candidature.html">Candidature</a></li>
+
+				<div class="social">
+	            	<li class="nav-item"><a class="nav-link px-2"  target="_blank" href="https://twitter.com/GoStreamFR"><i class="fab fa-twitter"></i></a></li>
+	            	<li class="nav-item"><a class="nav-link px-2"  target="_blank" href="https://www.youtube.com/channel/UCjy8quB3X53C8zc5s1UY1VQ"><i class="fab fa-youtube"></i></a></li>
+	            	<li class="nav-item"><a class="nav-link px-2"  target="_blank" href="https://www.twitch.tv/gostreamfr"><i class="fab fa-twitch"></i></a></li>
+	            	<li class="nav-item"><a class="nav-link px-2"  target="_blank" href="https://www.instagram.com/gostreamfr/"><i class="fab fa-instagram"></i></a></li>
+	            	<li class="nav-item"><a class="nav-link px-2"  target="_blank" href="https://discord.gg/EkkQRgr"><i class="fab fa-discord"></i></a></li>
+	            	<li class="nav-item"><a class="nav-link px-2"  target="_blank" href="mailto:gostreamcontact@gmail.com"><i class="fas fa-envelope"></i></a></li>
+        		</div>
+			</ul>
+
+			<div class="toggle" onclick="toggle()"></div>	
+
+			
+  			
+  		</header>
+
+
+  		<div id="content">
+
+		  	<section>
+		  		<div id="info-box"></div>
+
+				<div id="twitch-embed"></div>
+		 
+				<script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+				     
+				<script type="text/javascript">
+				    new Twitch.Embed("twitch-embed", {
+				      width: '100%',
+				      height: '100%',
+				      channel: "GoStreamFR",
+				    });
+				</script> 
+
+				<script type="text/javascript">
+					var embed = document.getElementById('twitch-embed');
+					var info = document.getElementById('info');
+					var cls = 'full-height';
+
+					function updateInfo() {
+					    embed.classList.add(cls);
+					}
+					updateInfo();
+				</script>
+			    
+		    </section>
+
+		</div>
+
+		<div id="footer">
+
+		  	<footer>
+		  		<h1>GoStream.fr - 2020 © tous droits réservés</h1>
+		  	</footer>
+  	
+  		</div>
+
+
+
+  		<script type="text/javascript">
+  			function toggle(){
+  				var header = document.getElementById("header")
+  				header.classList.toggle('active')
+  			}
+  		</script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+[[redirects]]
+  from = "/index.html"
+  to = "/accueil"
+  status = 301
+
+[[redirects]]
+  from = "/programmation.html"
+  to = "/programmation"
+  status = 301
+
+[[redirects]]
+  from = "/equipe.html"
+  to = "/equipe"
+  status = 301
+
+[[redirects]]
+  from = "/partenaires.html"
+  to = "/partenaires"
+  status = 301
+
+[[redirects]]
+  from = "/candidature.html"
+  to = "/candidature"
+  status = 301

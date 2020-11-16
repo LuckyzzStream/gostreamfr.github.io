@@ -506,6 +506,16 @@ svg circle
   transition: 0.2s;
 }
 
+.info
+{
+  position: relative;
+  color: #777;
+  font-size: 11px;
+  font-style: italic;
+
+  transition: 0.2s;
+}
+
 .description
 {
   position: relative;
@@ -519,6 +529,12 @@ svg circle
 .container .card:hover .name
 {
   font-size: 20px;
+}
+
+.container .card:hover .info
+{
+  color: #FFF;
+  font-size: 12.5px;
 }
 
 .container .card:hover .description

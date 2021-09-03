@@ -5,7 +5,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   	<meta name="theme-color" content="#222222">
-  	<meta name="author" content="Extrayer">
+  	<meta name="author" content="Luckyzz">
   	<meta name="description" content="Une WebTV pas comme les autres !">
   	<meta property="og:type" content="website">
   	<meta property="og:title" content="GOSTREAM">
@@ -16,6 +16,7 @@
 	<link rel="icon" type="image/png" href="logo.png">
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="programmation.css">
 
@@ -23,6 +24,7 @@
 </head>
 
 <body>
+
 	<div id="page">
 		<header id="header">
 			<a href="index.html" class="logo"><img src="logo_text.png"></a>
@@ -36,8 +38,8 @@
 
 				<div class="social">
 	            	<li class="nav-item"><a class="nav-link px-2"  target="_blank" href="https://twitter.com/GoStreamFR"><i class="fab fa-twitter"></i></a></li>
+					<li class="nav-item"><a class="nav-link px-2"  target="_blank" href="https://www.twitch.tv/gostreamfr"><i class="fab fa-twitch"></i></a></li>
 	            	<li class="nav-item"><a class="nav-link px-2"  target="_blank" href="https://www.youtube.com/channel/UCjy8quB3X53C8zc5s1UY1VQ"><i class="fab fa-youtube"></i></a></li>
-	            	<li class="nav-item"><a class="nav-link px-2"  target="_blank" href="https://www.twitch.tv/gostreamfr"><i class="fab fa-twitch"></i></a></li>
 	            	<li class="nav-item"><a class="nav-link px-2"  target="_blank" href="https://www.instagram.com/gostreamfr/"><i class="fab fa-instagram"></i></a></li>
 	            	<li class="nav-item"><a class="nav-link px-2"  target="_blank" href="https://discord.gg/EkkQRgr"><i class="fab fa-discord"></i></a></li>
 	            	<li class="nav-item"><a class="nav-link px-2"  target="_blank" href="mailto:gostreamcontact@gmail.com"><i class="fas fa-envelope"></i></a></li>
@@ -56,56 +58,681 @@
 		  	<section>
 		  		<div class="titre">
 		  			<hr class="bar-left" color=#F03C3C>
-		  			<h1>PROGRAMMATION</h1>
+		  			<h1>LA GRILLE DES PROGRAMMES</h1>
 		  			<hr class="bar-right" color=#F03C3C>
 		  		</div>
 
+				<br>
 
-		  		<div id="Iframe-Liason-Sheet" class="iframe-border center-block-horiz">
-				 <div class="responsive-wrapper responsive-wrapper-wxh-550x2000">
-				   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVFO6K0xuqwqxgnuRa2ng6R0HkMq80U3GrlVQozp0_zwCZLUm5m1l5yUgUlorsfKVvbPwa1JTIwEEJ/pubhtml?gid=0&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;range=A1:Q58"> 
-				     <p style="font-size: 110%;"><em><strong>ERROR: </strong>An iframe should be displayed here but your browser version does not support iframes.</em> Please update your browser to its most recent version and try again.</p>
-				   </iframe>
-				 </div>
-			
+		  		<div class="map-container">
+					<div class="inner-basic division-map div-toggle" data-target=".division-details" id="divisiondetail">
+
+					    <button class="map-point-sm" data-show=".lundi" style="background:#F03C3C;">
+							<div class="content">
+						  		<div class="centered-y">
+									<p>LUNDI</p>
+						  		</div>
+							</div>
+					  	</button>
+					  
+					    <button class="map-point-sm" data-show=".mardi">
+							<div class="content">
+						  		<div class="centered-y">
+									<p>MARDI</p>
+						  		</div>
+							</div>
+					    </button>
+					  
+					    <button class="map-point-sm" data-show=".mercredi">
+							<div class="content">
+						  		<div class="centered-y">
+									<p>MERCREDI</p>
+						  		</div>
+							</div>
+					    </button>
+					  
+					    <button class="map-point-sm" data-show=".jeudi">
+							<div class="content">
+						  		<div class="centered-y">
+									<p>JEUDI</p>
+						 		</div>
+							</div>
+					    </button>
+
+					    <button class="map-point-sm" data-show=".vendredi">
+							<div class="content">
+							    <div class="centered-y">
+									<p>VENDREDI</p>
+							 	</div>
+							</div>
+				  		</button>
+
+
+						<button class="map-point-sm" data-show=".samedi">
+							<div class="content">
+							    <div class="centered-y">
+									<p>SAMEDI</p>
+							 	</div>
+							</div>
+				  		</button>
+
+						<button class="map-point-sm" data-show=".dimanche">
+							<div class="content">
+							    <div class="centered-y">
+									<p>DIMANCHE</p>
+							 	</div>
+							</div>
+				  		</button>
+					  
+					</div>
+				</div>
+
+				<script>
+					$(document).on('click', '.map-point-sm', function() {
+						$(this).css('background-color', '#F03C3C').siblings().css('background-color', '#333333');
+						var show = $(this).data('show');
+						$(show).removeClass("hide").siblings().addClass("hide");
+
+					});
+				</script>
+				  
+				  
+				<div class="map-container">
+					<div class="inner-basic division-details">
+
+						<div class="lundi">
+							<div class="container">
+
+								<div class="card">
+									  <hr class="bar-top" color=#F03C3C>
+									<div class="box">
+									  <div class="percent" id="none">
+										<svg>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										</svg>
+									  </div>
+									</div>
+									<div class="programme">
+										<h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+									<hr class="bar-bot" color=#F03C3C>
+								</div>
+
+								<br>
+
+								<div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							</div>
+					  	</div>
+						<div class="mardi hide">
+							<div class="container">
+
+								<div class="card">
+									  <hr class="bar-top" color=#F03C3C>
+									<div class="box">
+									  <div class="percent" id="none">
+										<svg>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										</svg>
+									  </div>
+									</div>
+									<div class="programme">
+										<h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+									<hr class="bar-bot" color=#F03C3C>
+								</div>
+
+								<br>
+
+								<div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							</div>
+					  	</div>
+
+
+						<div class="mercredi hide">
+							<div class="container">
+
+								<div class="card">
+									  <hr class="bar-top" color=#F03C3C>
+									<div class="box">
+									  <div class="percent" id="none">
+										<svg>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										</svg>
+									  </div>
+									</div>
+									<div class="programme">
+										<h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+									<hr class="bar-bot" color=#F03C3C>
+								</div>
+
+								<br>
+
+								<div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							</div>
+					  	</div>
+
+						<div class="jeudi hide">
+							<div class="container">
+
+								<div class="card">
+									  <hr class="bar-top" color=#F03C3C>
+									<div class="box">
+									  <div class="percent" id="none">
+										<svg>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										</svg>
+									  </div>
+									</div>
+									<div class="programme">
+										<h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+									<hr class="bar-bot" color=#F03C3C>
+								</div>
+
+								<br>
+
+								<div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							</div>
+					  	</div>
+						
+						<div class="vendredi hide">
+							<div class="container">
+
+								<div class="card">
+									  <hr class="bar-top" color=#F03C3C>
+									<div class="box">
+									  <div class="percent" id="none">
+										<svg>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										</svg>
+									  </div>
+									</div>
+									<div class="programme">
+										<h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+									<hr class="bar-bot" color=#F03C3C>
+								</div>
+
+								<br>
+
+								<div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							</div>
+					  	</div>
+
+						<div class="samedi hide">
+							<div class="container">
+
+								<div class="card">
+									  <hr class="bar-top" color=#F03C3C>
+									<div class="box">
+									  <div class="percent" id="none">
+										<svg>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										</svg>
+									  </div>
+									</div>
+									<div class="programme">
+										<h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+									<hr class="bar-bot" color=#F03C3C>
+								</div>
+
+								<br>
+
+								<div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							</div>
+					  	</div>
+
+						<div class="dimanche hide">
+							<div class="container">
+
+								<div class="card">
+									  <hr class="bar-top" color=#F03C3C>
+									<div class="box">
+									  <div class="percent" id="none">
+										<svg>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										  <circle cx = "70" cy = "70" r="70"></circle>
+										</svg>
+									  </div>
+									</div>
+									<div class="programme">
+										<h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+									<hr class="bar-bot" color=#F03C3C>
+								</div>
+
+								<br>
+
+								<div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							  <br>
+
+							  <div class="card">
+									<hr class="bar-top" color=#F03C3C>
+								  <div class="box">
+									<div class="percent" id="none">
+									  <svg>
+										<circle cx = "70" cy = "70" r="70"></circle>
+										<circle cx = "70" cy = "70" r="70"></circle>
+									  </svg>
+									</div>
+								  </div>
+								  <div class="programme">
+									  <h2 class="name">PROGRAMME NON DÉFINI</h2>
+									  <h2 class="info">De --H à --H.</h2><br>
+									  <h1 class="description">Description du programme.</h1>
+									</div>
+								  <hr class="bar-bot" color=#F03C3C>
+							  </div>
+
+							</div>
+					  	</div>
+
+				</div>
+
+				<br>
 
 			</div>
-			<div class="container">
-
-				</div>
-
-				<div class="titre">
-		  			<hr class="bar-left" color=#F03C3C>
-		  			<h1>ÉMISSIONS</h1>
-		  			<hr class="bar-right" color=#F03C3C>
-		  		</div>
-
-		  		<div class="container">
-
-
-				    <div class="card">
-				      	<hr class="bar-top" color=#F03C3C>
-				        <div class="box">
-				          <div class="percent" id="none">
-				            <svg>
-				              <circle cx = "70" cy = "70" r="70"></circle>
-				              <circle cx = "70" cy = "70" r="70"></circle>
-				            </svg>
-				          </div>
-				        </div>
-				        <div class="emission">
-					        <h2 class="name">PROGRAMME NON DÉFINI</h2>
-					        <h2 class="info">Jour de diffusion | heure de diffusion :</h2><br>
-					        <h1 class="description">Bientôt disponible...</h1>
-				        </div>
-				        <hr class="bar-bot" color=#F03C3C>
-					</div>
-
-					</div>
-			<div class="container">
-
-				</div>
-
 			</section>
 		</div> 
 

@@ -26,7 +26,7 @@ header
   justify-content: space-between;
   align-items: center;
   background: #000;
-  z-index: 1000;
+  z-index: 100000;
   transition: 0.6s;
 
   border-bottom: solid 2px #F03C3C;
@@ -248,7 +248,7 @@ section{
 }
 
 
-.titre h1{
+.titre h1{font-size: 25px;
   margin-top: 1em;
   text-align: center;
   color: white;
@@ -259,74 +259,44 @@ section{
   width: 100%;
 }
 
-/* CSS for responsive iframe */
-/* ========================= */
 
-/* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
-#Iframe-Liason-Sheet {
-  max-width: 1225px;
-  max-height: 44em; 
-  overflow: hidden;
-  background: #222;
-  color: #222;
+
+
+.map-container {
+  text-align: center;
 }
-/* inner wrapper: make responsive */
-.responsive-wrapper {
-  position: relative;
-  height: 0;    /* gets height from padding-bottom */
-  /* following necessary for proper mobile behavior */
-  -webkit-overflow-scrolling: touch;
-  overflow: auto
-  background: #222;
-  color: #222;
-}
- .responsive-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+
+
+.map-container button{
+  padding: 10px 20px;
+  color: #fff;
+  background: #333;
   border: none;
-  background: #222;
-  color: #222;
-}
-/* padding-bottom = h/w as % -- sets aspect ratio */
-/* YouTube video aspect ratio */
-.responsive-wrapper-wxh-650x315 {
-  padding-bottom: 56.25%;
-}
-.responsive-wrapper-wxh-550x2000 {
-  padding-bottom: 363.6364%;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 1em;
 }
 
-/* general styles */
-/* ============== */
-.set-border {
-  border: 5px inset #4f4f4f;
-}
-.set-box-shadow { 
-  -webkit-box-shadow: 4px 4px 14px #4f4f4f;
-  -moz-box-shadow: 4px 4px 14px #4f4f4f;
-  box-shadow: 4px 4px 14px #4f4f4f;
-}
-.set-padding {
-  padding: 40px;
-}
-.set-margin {
-  margin: 30px;
-}
-.center-block-horiz {
-  margin-left: auto !important;
-  margin-right: auto !important;
+.map-container p{
+  color: #FFF;
+
 }
 
 
-.prog{
-  border: 0; 
-  background: #222;
+.map-container button:hover{
+  background: #F03C3C;
 }
+
+.blue{
+  background: #F03C3C ;
+}
+
+.hide {
+  display: none;
+}
+
+
 
 hr{
   margin: 0;
@@ -342,7 +312,6 @@ footer{
   width: 100%;
   background: #000000;
 
-  border-top: solid 2px #F03C3C;
 }
 
 footer h1{
@@ -351,7 +320,7 @@ footer h1{
 }
 
 
-/* 1er Titre */
+/* 2eme Titre */
 
 .titre{
   display: flex;
@@ -382,7 +351,7 @@ footer h1{
 }
 
 
-.titre h1{
+.titre h1{font-size: 25px;
   margin-top: 1em;
   text-align: center;
   color: white;
@@ -399,25 +368,23 @@ footer h1{
   justify-content: center;
 }
 
-@media(max-width: 991px)
-{
-    .container
-    {
-      margin-bottom: 2em;
-    }
 
-    .container .card
-    {
-      height: 40em;
-      width: 12em;
-    }
 
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: left;
 }
 
 .container .card
 {
+  margin: 15px;
+  margin-top: 0px;
   position: relative;
-  width: 65em; /* LARGEUR */
+  width: 60%;
   background: #333;
   display: flex;
   align-items: center;
@@ -427,6 +394,7 @@ footer h1{
   overflow: hidden;
   transition: 0.5s;
 }
+
 
 .container .card .box{
   display: flex;
@@ -488,20 +456,13 @@ svg circle
   transform: translate(5px,5px);
 }
 
-.card .emission{
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
 
-  margin-right: 1em;
-
-}
 
 .name
 {
   position: relative;
   color: #F03C3C;
-  font-size: 18px;
+  font-size: 22px;
 
   transition: 0.2s;
 }
@@ -510,7 +471,7 @@ svg circle
 {
   position: relative;
   color: #777;
-  font-size: 11px;
+  font-size: 18px;
   font-style: italic;
 
   transition: 0.2s;
@@ -520,7 +481,7 @@ svg circle
 {
   position: relative;
   color: #777;
-  font-size: 16px;
+  font-size: 14px;
 
 
   transition: 0.2s; 
@@ -528,19 +489,19 @@ svg circle
 
 .container .card:hover .name
 {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .container .card:hover .info
 {
   color: #FFF;
-  font-size: 12.5px;
+  font-size: 20.5px;
 }
 
 .container .card:hover .description
 {
   color: #FFF;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 

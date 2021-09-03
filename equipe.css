@@ -412,6 +412,11 @@ svg circle
   transition: 0.5s;
 }
 
+.card .fa-youtube{
+  color : #777;
+  transition: 0.5s;
+}
+
 .card .fa-instagram{ 
   color : #777;
   transition: 0.5s;
@@ -428,21 +433,27 @@ svg circle
 
 .card:hover .fa-twitter
 {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .card:hover .fa-twitch
 {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
+
+.card:hover .fa-youtube
+{
+  font-size: 1.1em;
+}
+
 .card:hover .fa-instagram
 {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .card:hover .fa-link
 {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .card .fa-twitter:hover
@@ -454,6 +465,12 @@ svg circle
 {
   color: #FFFFFF;
 }
+
+.card .fa-youtube:hover
+{
+  color: #FFFFFF;
+}
+
 .card .fa-instagram:hover
 {
   color: #FFFFFF;
@@ -482,13 +499,13 @@ svg circle
   background-size: 100%;
 }
 
-.card #derusher_1{
-  background-image: url(derusher_1.png);
+.card #community_manager{
+  background-image: url(community_manager.png);
   background-size: 100%;
 }
 
-.card #derusher_2{
-  background-image: url(derusher_2.png);
+.card #derusher{
+  background-image: url(derusher.png);
   background-size: 100%;
 }
 
@@ -497,7 +514,7 @@ svg circle
   background-size: 100%;
 }
 
-/* STREAMERS CARD */
+/* STREAMER CARD */
 
 .card #streamer_1{
   background-image: url(streamer_1.png);
@@ -546,31 +563,6 @@ svg circle
 
 .card #streamer_10{
   background-image: url(streamer_10.png);
-  background-size: 100%;
-}
-
-.card #streamer_11{
-  background-image: url(streamer_11.png);
-  background-size: 100%;
-}
-
-.card #streamer_12{
-  background-image: url(streamer_12.png);
-  background-size: 100%;
-}
-
-.card #streamer_13{
-  background-image: url(streamer_13.png);
-  background-size: 100%;
-}
-
-.card #streamer_14{
-  background-image: url(streamer_14.png);
-  background-size: 100%;
-}
-
-.card #streamer_15{
-  background-image: url(streamer_15.png);
   background-size: 100%;
 }
 

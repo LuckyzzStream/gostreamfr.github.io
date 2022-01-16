@@ -259,7 +259,47 @@ section{
   width: 100%;
 }
 
+.sous-titre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+  margin-bottom: 0%;
+}
+
+.sous-titre .bar-right{
+  margin-top: 1.25em;
+
+  margin-left: 1em;
+
+  border-radius: 1em; 
+
+  height: 0.1em;
+  width: 5%;
+}
+
+.sous-titre .bar-left{
+  margin-top: 1.25em;
+
+  margin-right: 1em;
+
+  border-radius: 1em; 
+  
+  height: 0.1em;
+  width: 5%;
+}
+
+
+.sous-titre h1{font-size: 18px;
+  margin-top: 1em;
+  text-align: center;
+  color: #F03C3C;
+}
+
+section{
+  height: 100%;
+  width: 100%;
+}
 
 
 .map-container {
@@ -461,7 +501,7 @@ svg circle
 .name
 {
   position: relative;
-  color: #F03C3C;
+  color: #FFF;
   font-size: 22px;
 
   transition: 0.2s;
@@ -514,6 +554,11 @@ svg circle
 
 .card #emission_1{
   background-image: url('emission_1') ;
+  background-size: 100%;
+}
+
+.card #goactus{
+  background-image: url('GoActus.png') ;
   background-size: 100%;
 }
 

@@ -482,38 +482,6 @@ svg circle
 }
 
 
-/* STAFF CARD */
-
-.card #responsable_web_tv{
-  background-image: url('responsable_web_tv.png') ;
-  background-size: 100%;
-}
-
-.card #gestionnaire_and_tresorier{
-  background-image: url(gestionnaire_and_tresorier.png);
-  background-size: 100%;
-}
-
-.card #monteur_vidéo{
-  background-image: url(monteur_vidéo.png);
-  background-size: 100%;
-}
-
-.card #community_manager{
-  background-image: url(community_manager.png);
-  background-size: 100%;
-}
-
-.card #derusher{
-  background-image: url(derusher.png);
-  background-size: 100%;
-}
-
-.card #dev_web{
-  background-image: url('dev_web.png') ;
-  background-size: 100%;
-}
-
 /* STREAMER CARD */
 
 .card #streamer_1{
@@ -566,6 +534,22 @@ svg circle
   background-size: 100%;
 }
 
+.card #streamer_11{
+  background-image: url(streamer_11.png);
+  background-size: 100%;
+}
+.card #streamer_12{
+  background-image: url(streamer_12.png);
+  background-size: 100%;
+}
+.card #streamer_13{
+  background-image: url(streamer_13.png);
+  background-size: 100%;
+}
+.card #streamer_14{
+  background-image: url(streamer_14.png);
+  background-size: 100%;
+}
 .card #new_streamer{
   background-image: url(new_streamer.png);
   background-size: 100%;
@@ -575,6 +559,40 @@ svg circle
   background-image: url(streamer_plus.png);
   background-size: 100%;
 }
+
+
+/* STAFF CARD */
+
+.card #responsable_web_tv{
+  background-image: url('responsable_web_tv.png') ;
+  background-size: 100%;
+}
+
+.card #gestionnaire_and_tresorier{
+  background-image: url(gestionnaire_and_tresorier.png);
+  background-size: 100%;
+}
+
+.card #monteur_vidéo{
+  background-image: url(monteur_vidéo.png);
+  background-size: 100%;
+}
+
+.card #community_manager{
+  background-image: url(community_manager.png);
+  background-size: 100%;
+}
+
+.card #derusher{
+  background-image: url(derusher.png);
+  background-size: 100%;
+}
+
+.card #dev_web{
+  background-image: url('dev_web.png') ;
+  background-size: 100%;
+}
+
 
 /* FOOTER */
 

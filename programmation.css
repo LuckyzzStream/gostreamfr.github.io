@@ -211,7 +211,7 @@ header ul .social li a:hover{
   flex-grow:1; /* 4 */
 }
 
-section{
+section:nth-child(1){
   padding-top: 100px;
 }
 
@@ -222,7 +222,7 @@ section{
   align-items: center;
   justify-content: center;
 
-  margin-bottom: 0%;
+  margin-bottom: 1%;
 }
 
 .titre .bar-right{
@@ -252,48 +252,6 @@ section{
   margin-top: 1em;
   text-align: center;
   color: white;
-}
-
-section{
-  height: 100%;
-  width: 100%;
-}
-
-.sous-titre{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin-bottom: 0%;
-}
-
-.sous-titre .bar-right{
-  margin-top: 1.25em;
-
-  margin-left: 1em;
-
-  border-radius: 1em; 
-
-  height: 0.1em;
-  width: 5%;
-}
-
-.sous-titre .bar-left{
-  margin-top: 1.25em;
-
-  margin-right: 1em;
-
-  border-radius: 1em; 
-  
-  height: 0.1em;
-  width: 5%;
-}
-
-
-.sous-titre h1{font-size: 18px;
-  margin-top: 1em;
-  text-align: center;
-  color: #F03C3C;
 }
 
 section{
@@ -334,9 +292,83 @@ section{
 
 .hide {
   display: none;
+} 
+
+
+
+hr{
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS for responsive iframe */
+/* ========================= */
+
+/* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
+#Iframe-Liason-Sheet {
+  max-width: 1204px;
+  max-height: 43.5em; 
+  overflow: hidden;
+  background: #222222;
+  color: #222222;
+}
+/* inner wrapper: make responsive */
+.responsive-wrapper {
+  position: relative;
+  height: 0;    /* gets height from padding-bottom */
+  /* following necessary for proper mobile behavior */
+  -webkit-overflow-scrolling: touch;
+  overflow: auto
+  background: #222;
+  color: #222;
+}
+ .responsive-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: #222222;
+  color: #222222;
+}
+/* padding-bottom = h/w as % -- sets aspect ratio */
+/* YouTube video aspect ratio */
+.responsive-wrapper-wxh-650x315 {
+  padding-bottom: 56.25%;
+}
+.responsive-wrapper-wxh-550x2000 {
+  padding-bottom: 363.6364%;
+}
+
+/* general styles */
+/* ============== */
+.set-border {
+  border: 5px inset #4f4f4f;
+}
+.set-box-shadow { 
+  -webkit-box-shadow: 4px 4px 14px #4f4f4f;
+  -moz-box-shadow: 4px 4px 14px #4f4f4f;
+  box-shadow: 4px 4px 14px #4f4f4f;
+}
+.set-padding {
+  padding: 40px;
+}
+.set-margin {
+  margin: 30px;
+}
+.center-block-horiz {
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 
+.prog{
+  border: 0; 
+  background: #222;
+}
 
 hr{
   margin: 0;
@@ -360,43 +392,6 @@ footer h1{
 }
 
 
-/* 2eme Titre */
-
-.titre{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.titre .bar-right{
-  margin-top: 1.25em;
-
-  margin-left: 1em;
-
-  border-radius: 1em; 
-
-  height: 0.2em;
-  width: 10%;
-}
-
-.titre .bar-left{
-  margin-top: 1.25em;
-
-  margin-right: 1em;
-
-  border-radius: 1em; 
-  
-  height: 0.2em;
-  width: 10%;
-}
-
-
-.titre h1{font-size: 25px;
-  margin-top: 1em;
-  text-align: center;
-  color: white;
-}
-
 /* CARD */
 
 .container
@@ -413,10 +408,11 @@ footer h1{
 
 .container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   text-align: left;
+  flex-wrap: wrap;
 }
 
 .container .card
@@ -427,12 +423,23 @@ footer h1{
   width: 25em;
   background: #333;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
   height: 10em; /* HAUTEUR */
 
   border-radius: 8px;
   overflow: hidden;
   transition: 0.5s;
+}
+
+
+.container .card .content{
+  padding: 0.4em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: stretch;
+  text-align: left;
 }
 
 
@@ -444,21 +451,6 @@ footer h1{
   min-width: 10em;
 }
 
-.container .bar-top{
-  position: absolute;
-  align-self: flex-start;
-
-  height: 0.2em;
-  width: 100%;
-}
-
-.container .bar-bot{
-  position: absolute;
-  align-self: flex-end;
-
-  height: 0.2em;
-  width: 100%;
-}
 
 .container .card:hover
 {
@@ -527,6 +519,33 @@ svg circle
   transition: 0.2s; 
 }
 
+.container .card .top{
+  background-color: #F03C3C;
+  width: 100%;
+  height: 0.3em;
+}
+
+.container .card .bot{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #F03C3C;
+  width: 100%;
+  height: 2em;
+}
+
+.container .card .bot h3{
+  color: #FFF;
+  font-size: 16px;
+}
+
+.container .card .bot h3 .plus{
+  font-size: 20px;
+}
+
+
 .container .card:hover .name
 {
   font-size: 25px;
@@ -557,8 +576,8 @@ svg circle
   background-size: 100%;
 }
 
-.card #goactus{
-  background-image: url('GoActus.png') ;
+.card #goactu{
+  background-image: url('GoActu.png') ;
   background-size: 100%;
 }
 

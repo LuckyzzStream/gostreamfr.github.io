@@ -269,6 +269,7 @@ section{
   justify-content: space-around;
 
   margin-bottom: 2em;
+  flex-wrap: wrap;
 }
 
 @media(max-width: 991px)
@@ -301,6 +302,7 @@ section{
   text-align: center;
   overflow: hidden;
   transition: 0.5s;
+  margin-top: 1em;
 
 }
 

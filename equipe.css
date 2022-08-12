@@ -552,12 +552,34 @@ svg circle
   background-image: url(streamer_14.png);
   background-size: 100%;
 }
-.card #new_streamer{
-  background-image: url(new_streamer.png);
+.card #new_streamer_violet{
+  background-image: url(new_streamer_violet.png);
   background-size: 100%;
 }
-
-.card #streamer_plus{
+.card #new_streamer_rouge{
+  background-image: url(new_streamer_rouge.png);
+  background-size: 100%;
+}
+.card #new_streamer_bleu{
+  background-image: url(new_streamer_bleu.png);
+  background-size: 100%;
+}
+.card #new_streamer_vert{
+  background-image: url(new_streamer_vert.png);
+  background-size: 100%;
+}
+.card #new_streamer_jaune{
+  background-image: url(new_streamer_jaune.png);
+  background-size: 100%;
+}
+.card #new_streamer_rose{
+  background-image: url(new_streamer_rose.png);
+  background-size: 100%;
+}
+.card #new_streamer_ciel{
+  background-image: url(new_streamer_ciel.png);
+  background-size: 100%;
+}.card #streamer_plus{
   background-image: url(streamer_plus.png);
   background-size: 100%;
 }

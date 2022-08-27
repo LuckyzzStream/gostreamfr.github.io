@@ -579,7 +579,20 @@ svg circle
 .card #new_streamer_ciel{
   background-image: url(new_streamer_ciel.png);
   background-size: 100%;
-}.card #streamer_plus{
+}
+.card #new_streamer_orange{
+  background-image: url(new_streamer_orange.png);
+  background-size: 100%;
+}
+.card #new_streamer_sapin{
+  background-image: url(new_streamer_sapin.png);
+  background-size: 100%;
+}
+.card #new_streamer_marron{
+  background-image: url(new_streamer_marron.png);
+  background-size: 100%;
+}
+.card #streamer_plus{
   background-image: url(streamer_plus.png);
   background-size: 100%;
 }

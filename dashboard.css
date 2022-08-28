@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Klavika';
+    src: url('Klavika_Bold.otf');
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Klavika';
+}
+
+body {
+  background: #222;
+}
+
+#app {
+    background: #000;
+    color: #FFF;
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+    font-family: Trebuchet MS, 'Roboto', sans-serif;
+    font-size: .95rem;
+}
+
+section {
+    position: relative;
+    flex: 1 1 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.chatbox {
+    background: #111111;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.chatbox-status {
+    color: #FFF;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+}
+
+.chatbox-info {
+    background: rgba(255, 255, 255, .05);
+    overflow-y: auto;
+    flex: 1 1 0;
+    margin: 0;
+}
+
+.chatbox-copyright {
+    overflow-y: auto;
+    margin: 0;
+    padding: 1rem 1.5rem;
+}

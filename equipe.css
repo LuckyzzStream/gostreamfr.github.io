@@ -605,8 +605,8 @@ svg circle
   background-size: 100%;
 }
 
-.card #responsable_en_gestion{
-  background-image: url(responsable_en_gestion.png);
+.card #responsable_moderation{
+  background-image: url(responsable_moderation.png);
   background-size: 100%;
 }
 

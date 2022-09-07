@@ -424,13 +424,18 @@ svg circle
   transition: 0.5s;
 }
 
+.card .fa-tiktok{
+  color : #777;
+  transition: 0.5s;
+}
+
 .card .fa-link{
   color : #777;
   transition: 0.5s;
 }
 
 .card:hover a i{
-  width: 20%;
+  width: 18%;
 }
 
 .card:hover .fa-twitter
@@ -449,6 +454,11 @@ svg circle
 }
 
 .card:hover .fa-instagram
+{
+  font-size: 1.1em;
+}
+
+.card:hover .fa-tiktok
 {
   font-size: 1.1em;
 }
@@ -474,6 +484,11 @@ svg circle
 }
 
 .card .fa-instagram:hover
+{
+  color: #FFFFFF;
+}
+
+.card .fa-tiktok:hover
 {
   color: #FFFFFF;
 }

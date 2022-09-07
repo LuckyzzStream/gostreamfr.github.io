@@ -572,30 +572,23 @@ svg circle
   background-size: 100%;
 }
 
-.card #emission_1{
-  background-image: url('emission_1') ;
-  background-size: 100%;
-}
-
 .card #goactu{
-  background-image: url('GoActu.png') ;
+  background-image: url('GoActu V2 Site.png') ;
   background-size: 100%;
 }
 
-.card #mysselia{
-  background-image: url('streamer_1.png') ;
+.card #goevent{
+  background-image: url('GoEvent V2 Site.png') ;
   background-size: 100%;
 }
 
-.card #tatorman{
-  background-image: url('streamer_2.png') ;
+.card #liveirl{
+  background-image: url('LIVE IRL @ V2 Site.png') ;
   background-size: 100%;
 }
 
-.card #mrszu{
-  background-image: url('streamer_3.png') ;
-  background-size: 100%;
-}
+
+
 
 /* FOOTER */
 

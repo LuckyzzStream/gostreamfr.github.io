@@ -219,6 +219,8 @@ header ul .social li a:hover{
 
 section{
   padding-top: 100px;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 /* 1er Titre */
@@ -302,7 +304,7 @@ section{
   text-align: center;
   overflow: hidden;
   transition: 0.5s;
-  margin-top: 1em;
+  margin: 1em;
 
 }
 

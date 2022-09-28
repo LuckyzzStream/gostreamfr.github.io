@@ -226,6 +226,7 @@ hr{
 
 footer{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -236,7 +237,12 @@ footer{
   border-top: solid 2px #F03C3C;
 }
 
-footer h1{
+footer h3{
   color:  #f2f2f2;
-  font-size: 16px;
+  font-size: 0.8rem;
+}
+
+footer h4 a, footer h4{
+  color:  #aaaaaa;
+  font-size: 0.5rem;
 }

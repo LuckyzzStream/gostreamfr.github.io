@@ -503,82 +503,74 @@ svg circle
 
 /* STREAMER CARD */
 
-.card #streamer_1{
-  background-image: url(streamer_1.png);
+.card #streamer_aiku{
+  background-image: url(Aiku.png);
   background-size: 100%;
 }
 
-.card #streamer_2{
-  background-image: url(streamer_2.png);
+.card #streamer_atsuki{
+  background-image: url(Atsuki.png);
   background-size: 100%;
 }
 
-.card #streamer_3{
-  background-image: url(streamer_3.png);
+.card #streamer_azraelkt{
+  background-image: url(AzraelKT.png);
   background-size: 100%;
 }
 
-.card #streamer_4{
-  background-image: url(streamer_4.png);
+.card #streamer_dje_tv{
+  background-image: url(Dje_TV.png);
   background-size: 100%;
 }
 
-.card #streamer_5{
-  background-image: url(streamer_5.png);
+.card #streamer_eriiaa{
+  background-image: url(Eriiaa.png);
   background-size: 100%;
 }
 
-.card #streamer_6{
-  background-image: url(streamer_6.png);
+.card #streamer_folceau{
+  background-image: url(Folceau.png);
   background-size: 100%;
 }
 
-.card #streamer_7{
-  background-image: url(streamer_7.png);
+.card #streamer_goyo{
+  background-image: url(Goyo.png);
   background-size: 100%;
 }
 
-.card #streamer_8{
-  background-image: url(streamer_8.png);
+.card #streamer_lagauf{
+  background-image: url(LaGauf.png);
   background-size: 100%;
 }
 
-.card #streamer_9{
-  background-image: url(streamer_9.png);
+.card #streamer_maeeeeva{
+  background-image: url(Maeeeeva.png);
   background-size: 100%;
 }
 
-.card #streamer_10{
-  background-image: url(streamer_10.png);
+.card #streamer_mrszu{
+  background-image: url(MrsZU.png);
   background-size: 100%;
 }
 
-.card #streamer_11{
-  background-image: url(streamer_11.png);
+.card #streamer_mysselia{
+  background-image: url(Mysselia.png);
   background-size: 100%;
 }
-.card #streamer_12{
-  background-image: url(streamer_12.png);
+.card #streamer_newton{
+  background-image: url(Newton.png);
   background-size: 100%;
 }
-.card #streamer_13{
-  background-image: url(streamer_13.png);
+.card #streamer_nietlisbak{
+  background-image: url(NIETLISBAK.png);
   background-size: 100%;
 }
-.card #streamer_14{
-  background-image: url(streamer_14.png);
+.card #streamer_nilo{
+  background-image: url(Nilo.png);
   background-size: 100%;
 }
-.card #streamer_15{
-  background-image: url(streamer_15.png);
-  background-size: 100%;
-}
-.card #streamer_16{
-  background-image: url(streamer_16.png);
-  background-size: 100%;
-}
-.card #streamer_17{
-  background-image: url(streamer_17.png);
+.card #streamer_sunistream{
+  background-image: url(SuniStream.png);
   background-size: 100%;
 }
 .card #new_streamer_violet{
@@ -630,12 +622,22 @@ svg circle
 /* STAFF CARD */
 
 .card #responsable_web_tv{
-  background-image: url('responsable_web_tv.png') ;
+  background-image: url('Luckyzz.png') ;
   background-size: 100%;
 }
 
 .card #responsable_moderation{
-  background-image: url(responsable_moderation.png);
+  background-image: url(Salocin.png);
+  background-size: 100%;
+}
+
+.card #community_manager{
+  background-image: url(Waksndd.png);
+  background-size: 100%;
+}
+
+.card #graphiste_rs{
+  background-image: url(graphiste_rs.png);
   background-size: 100%;
 }
 
@@ -644,18 +646,8 @@ svg circle
   background-size: 100%;
 }
 
-.card #community_manager{
-  background-image: url(community_manager.png);
-  background-size: 100%;
-}
-
 .card #derusher{
   background-image: url(derusher.png);
-  background-size: 100%;
-}
-
-.card #dev_web{
-  background-image: url('dev_web.png') ;
   background-size: 100%;
 }
 

@@ -507,52 +507,38 @@ svg circle
   background-image: url(Aiku.png);
   background-size: 100%;
 }
-
 .card #streamer_atsuki{
   background-image: url(Atsuki.png);
   background-size: 100%;
 }
-
 .card #streamer_azraelkt{
   background-image: url(AzraelKT.png);
   background-size: 100%;
 }
-
 .card #streamer_dje_tv{
   background-image: url(Dje_TV.png);
   background-size: 100%;
 }
-
 .card #streamer_eriiaa{
   background-image: url(Eriiaa.png);
   background-size: 100%;
 }
-
 .card #streamer_folceau{
   background-image: url(Folceau.png);
   background-size: 100%;
 }
-
-.card #streamer_goyo{
-  background-image: url(Goyo.png);
-  background-size: 100%;
-}
-
 .card #streamer_lagauf{
   background-image: url(LaGauf.png);
   background-size: 100%;
 }
-
 .card #streamer_maeeeeva{
   background-image: url(Maeeeeva.png);
   background-size: 100%;
 }
-
 .card #streamer_mrszu{
   background-image: url(MrsZU.png);
   background-size: 100%;
 }
-
 .card #streamer_mysselia{
   background-image: url(Mysselia.png);
   background-size: 100%;
@@ -563,10 +549,6 @@ svg circle
 }
 .card #streamer_nietlisbak{
   background-image: url(NIETLISBAK.png);
-  background-size: 100%;
-}
-.card #streamer_nilo{
-  background-image: url(Nilo.png);
   background-size: 100%;
 }
 .card #streamer_sunistream{

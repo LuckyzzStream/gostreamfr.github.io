@@ -551,6 +551,10 @@ svg circle
   background-image: url(NIETLISBAK.png);
   background-size: 100%;
 }
+.card #streamer_starbuck{
+  background-image: url(Starbuck.png);
+  background-size: 100%;
+}
 .card #streamer_sunistream{
   background-image: url(SuniStream.png);
   background-size: 100%;
@@ -613,7 +617,7 @@ svg circle
   background-size: 100%;
 }
 
-.card #community_manager{
+.card #responsable_communication{
   background-image: url(Waksndd.png);
   background-size: 100%;
 }

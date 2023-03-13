@@ -515,6 +515,10 @@ svg circle
   background-image: url(AzraelKT.png);
   background-size: 100%;
 }
+.card #streamer_benlebarbu{
+  background-image: url(B3nLeBarbu.png);
+  background-size: 100%;
+}
 .card #streamer_dje_tv{
   background-image: url(Dje_TV.png);
   background-size: 100%;
@@ -531,8 +535,8 @@ svg circle
   background-image: url(LaGauf.png);
   background-size: 100%;
 }
-.card #streamer_maeeeeva{
-  background-image: url(Maeeeeva.png);
+.card #streamer_legoyave{
+  background-image: url(LeGoyave.png);
   background-size: 100%;
 }
 .card #streamer_mrszu{

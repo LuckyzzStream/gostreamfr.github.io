@@ -563,6 +563,10 @@ svg circle
   background-image: url(SuniStream.png);
   background-size: 100%;
 }
+.card #streamer_tyran_off{
+  background-image: url(Tyran_off.png);
+  background-size: 100%;
+}
 .card #new_streamer_violet{
   background-image: url(new_streamer_violet.png);
   background-size: 100%;

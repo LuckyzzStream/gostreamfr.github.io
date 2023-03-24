@@ -515,6 +515,10 @@ svg circle
   background-image: url(AzraelKT.png);
   background-size: 100%;
 }
+.card #streamer_benjikiki{
+  background-image: url(BENJIKIKI.png);
+  background-size: 100%;
+}
 .card #streamer_benlebarbu{
   background-image: url(B3nLeBarbu.png);
   background-size: 100%;
@@ -553,6 +557,10 @@ svg circle
 }
 .card #streamer_nietlisbak{
   background-image: url(NIETLISBAK.png);
+  background-size: 100%;
+}
+.card #streamer_pseudoantoine{
+  background-image: url(pseudo_antoine.png);
   background-size: 100%;
 }
 .card #streamer_starbuck{

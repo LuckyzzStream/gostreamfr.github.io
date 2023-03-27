@@ -307,8 +307,8 @@ hr{
 
 /* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
 #Iframe-Liason-Sheet {
-  max-width: 1204px;
-  max-height: 46.5em; 
+  max-width: 1294px;
+  max-height: 46.6em; 
   overflow: hidden;
   background: #222222;
   color: #222222;
@@ -574,17 +574,17 @@ svg circle
 }
 
 .card #goactu{
-  background-image: url('GoActu V2 Site.png') ;
+  background-image: url('GoActu.png') ;
   background-size: 100%;
 }
 
-.card #goevent{
-  background-image: url('GoEvent V2 Site.png') ;
+.card #flasback{
+  background-image: url('Flashback.png') ;
   background-size: 100%;
 }
 
 .card #liveirl{
-  background-image: url('LIVE IRL @ V2 Site.png') ;
+  background-image: url('LIVE_IRL_@.png') ;
   background-size: 100%;
 }
 

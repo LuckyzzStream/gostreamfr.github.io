@@ -201,8 +201,10 @@ header ul .social li a:hover{
 
 /* FIN DU MENU */
 
+/* BODY */
+
 #page {
-  min-height: 100vh;
+  min-height:100vh; /* 1 */
   display:flex; /* 2 */
   flex-direction:column; /* 3 */
 }
@@ -211,13 +213,51 @@ header ul .social li a:hover{
   flex-grow:1; /* 4 */
 }
 
+
 section{
-  padding-top: 90px;
+  padding-top: 100px;
 }
 
-.full-height {
-  height: 90vh;
+
+/* 1er Titre */
+
+.titre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+.titre .bar-right{
+  margin-top: 1.25em;
+
+  margin-left: 1em;
+
+  border-radius: 1em; 
+
+  height: 0.2em;
+  width: 11%;
+}
+
+.titre .bar-left{
+  margin-top: 1.25em;
+
+  margin-right: 1em;
+
+  border-radius: 1em; 
+  
+  height: 0.2em;
+  width: 11%;
+}
+
+
+.titre h1{
+  margin-top: 1em;
+  text-align: center;
+  color: white;
+}
+
+
+/* FOOTER */
 
 hr{
   margin: 0;

@@ -503,10 +503,7 @@ svg circle
 
 /* STREAMER CARD */
 
-.card #streamer_aiku{
-  background-image: url(Aiku.png);
-  background-size: 100%;
-}
+
 .card #streamer_atsuki{
   background-image: url(Atsuki.png);
   background-size: 100%;
@@ -635,7 +632,7 @@ svg circle
 }
 
 .card #graphiste_rs{
-  background-image: url(graphiste_rs.png);
+  background-image: url(laura.png);
   background-size: 100%;
 }
 

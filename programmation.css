@@ -421,12 +421,12 @@ footer h1{
   margin: 15px;
   margin-top: 0px;
   position: relative;
-  width: 25em;
+  width: 33em;
   background: #333;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 10em; /* HAUTEUR */
+  height: 11em; /* HAUTEUR */
 
   border-radius: 8px;
   overflow: hidden;
@@ -505,7 +505,7 @@ svg circle
 {
   position: relative;
   color: #FFF;
-  font-size: 18px;
+  font-size: 12px;
 
   transition: 0.2s;
 }
@@ -550,19 +550,19 @@ svg circle
 
 .container .card:hover .name
 {
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .container .card:hover .info
 {
   color: #FFF;
-  font-size: 20.5px;
+  font-size: 12px;
 }
 
 .container .card:hover .description
 {
   color: #FFF;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -572,19 +572,88 @@ svg circle
   background-image: url('emission_0.jpg') ;
   background-size: 100%;
 }
-
 .card #goactu{
   background-image: url('GoActu.png') ;
   background-size: 100%;
 }
-
-.card #flasback{
+.card #flashback{
   background-image: url('Flashback.png') ;
   background-size: 100%;
 }
-
+.card #traintonmate{
+  background-image: url('Train_Ton_Mate.png') ;
+  background-size: 100%;
+}
 .card #liveirl{
   background-image: url('LIVE_IRL_@.png') ;
+  background-size: 100%;
+}
+.card #teamstreamers{
+  background-image: url('TeamStreamers.png') ;
+  background-size: 100%;
+}
+.card #switchparty{
+  background-image: url('Switch_Party.png') ;
+  background-size: 100%;
+}
+.card #gofight{
+  background-image: url('GoFight.png') ;
+  background-size: 100%;
+}
+.card #geohasard{
+  background-image: url('Tournoi_Geohasard.png') ;
+  background-size: 100%;
+}
+.card #legrandquestionnaire{
+  background-image: url('Le_Gd_Questionnaire.png') ;
+  background-size: 100%;
+}
+.card #viewersparty{
+  background-image: url('Viewers_Party.png') ;
+  background-size: 100%;
+}
+.card #salutletchat{
+  background-image: url('Salut_Le_Tchat.png') ;
+  background-size: 100%;
+}
+.card #gostreamgames{
+  background-image: url('GoStream_Games.png') ;
+  background-size: 100%;
+}
+.card #interview{
+  background-image: url('ITW.png') ;
+  background-size: 100%;
+}
+.card #latoile{
+  background-image: url('La_Toile.png') ;
+  background-size: 100%;
+}
+.card #evenement{
+  background-image: url('Evenement.png') ;
+  background-size: 100%;
+}
+.card #musicbattle{
+  background-image: url('Music_Battle.png') ;
+  background-size: 100%;
+}
+.card #leduel{
+  background-image: url('Le_Duel.png') ;
+  background-size: 100%;
+}
+.card #tedla{
+  background-image: url('TEDLA.png') ;
+  background-size: 100%;
+}
+.card #bestofclips{
+  background-image: url('Best_Of_Clips.png') ;
+  background-size: 100%;
+}
+.card #minederien{
+  background-image: url('MDR.png') ;
+  background-size: 100%;
+}
+.card #solo_multi{
+  background-image: url('Solo_Multi.png') ;
   background-size: 100%;
 }
 

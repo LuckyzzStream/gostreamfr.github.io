@@ -436,6 +436,11 @@ svg circle
   transition: 0.5s;
 }
 
+.card .fa-linkedin-in{
+  color : #777;
+  transition: 0.5s;
+}
+
 .card:hover a i{
   width: 18%;
 }
@@ -470,6 +475,11 @@ svg circle
   font-size: 1.1em;
 }
 
+.card:hover .fa-linkedin-in
+{
+  font-size: 1.1em;
+}
+
 .card .fa-twitter:hover
 {
   color: #FFFFFF;
@@ -496,6 +506,11 @@ svg circle
 }
 
 .card .fa-link:hover
+{
+  color: #FFFFFF;
+}
+
+.card .fa-linkedin-in:hover
 {
   color: #FFFFFF;
 }
@@ -625,8 +640,8 @@ svg circle
   background-size: 100%;
 }
 
-.card #responsable_moderation{
-  background-image: url(Salocin.png);
+.card #technicien_webtv{
+  background-image: url(Noliose.png);
   background-size: 100%;
 }
 

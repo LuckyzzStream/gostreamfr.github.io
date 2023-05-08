@@ -531,15 +531,11 @@ svg circle
   background-image: url(BENJIKIKI.png);
   background-size: 100%;
 }
-.card #streamer_benlebarbu{
-  background-image: url(B3nLeBarbu.png);
-  background-size: 100%;
-}
 .card #streamer_dictarthur{
   background-image: url(Dictarthur.png);
   background-size: 100%;
 }
-.card #streamer_dje_tv{
+.card #streamer_djepasdeskill{
   background-image: url(DjePasDeSkill.png);
   background-size: 100%;
 }
@@ -567,12 +563,12 @@ svg circle
   background-image: url(Newton.png);
   background-size: 100%;
 }
-.card #streamer_nietlisbak{
-  background-image: url(NIETLISBAK.png);
-  background-size: 100%;
-}
 .card #streamer_paradygme{
   background-image: url(Paradygme.png);
+  background-size: 100%;
+}
+.card #streamer_prysm{
+  background-image: url(PRYSM.png);
   background-size: 100%;
 }
 .card #streamer_pseudo_antoine{

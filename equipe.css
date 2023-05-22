@@ -527,10 +527,6 @@ svg circle
   background-image: url(AzraelKT.png);
   background-size: 100%;
 }
-.card #streamer_benjikiki{
-  background-image: url(BENJIKIKI.png);
-  background-size: 100%;
-}
 .card #streamer_djepasdeskill{
   background-image: url(DjePasDeSkill.png);
   background-size: 100%;
@@ -545,6 +541,10 @@ svg circle
 }
 .card #streamer_lagauf{
   background-image: url(LaGauf.png);
+  background-size: 100%;
+}
+.card #streamer_lgstronger{
+  background-image: url(LGStronger.png);
   background-size: 100%;
 }
 .card #streamer_mrszu{

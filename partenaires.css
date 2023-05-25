@@ -399,8 +399,13 @@ svg circle
 
 
 
+.card #tcorp{
+  background-image: url('T-Corp.png') ;
+  background-size: 100%;
+}
+
 .card #geohasard{
-  background-image: url('geohasard.png') ;
+  background-image: url('Tournoi_Geohasard.png') ;
   background-size: 100%;
 }
 

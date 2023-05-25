@@ -576,6 +576,10 @@ svg circle
   background-image: url('GoActu.png') ;
   background-size: 100%;
 }
+.card #goscream{
+  background-image: url('GoScream.png') ;
+  background-size: 100%;
+}
 .card #flashback{
   background-image: url('Flashback.png') ;
   background-size: 100%;

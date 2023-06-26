@@ -519,10 +519,6 @@ svg circle
 /* STREAMER CARD */
 
 
-.card #streamer_atsuki{
-  background-image: url(Atsuki.png);
-  background-size: 100%;
-}
 .card #streamer_azraelkt{
   background-image: url(AzraelKT.png);
   background-size: 100%;
@@ -547,10 +543,6 @@ svg circle
   background-image: url(LGStronger.png);
   background-size: 100%;
 }
-.card #streamer_mrszu{
-  background-image: url(MrsZU.png);
-  background-size: 100%;
-}
 .card #streamer_mysselia{
   background-image: url(Mysselia.png);
   background-size: 100%;
@@ -565,14 +557,6 @@ svg circle
 }
 .card #streamer_prysm{
   background-image: url(PRYSM.png);
-  background-size: 100%;
-}
-.card #streamer_pseudo_antoine{
-  background-image: url(pseudo_antoine.png);
-  background-size: 100%;
-}
-.card #streamer_starbuck{
-  background-image: url(Starbuck.png);
   background-size: 100%;
 }
 .card #streamer_tyran_off{

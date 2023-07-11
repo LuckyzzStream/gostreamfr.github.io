@@ -543,8 +543,16 @@ svg circle
   background-image: url(LGStronger.png);
   background-size: 100%;
 }
+.card #streamer_loup_mp4{
+  background-image: url(Loup_mp4.png);
+  background-size: 100%;
+}
 .card #streamer_mysselia{
   background-image: url(Mysselia.png);
+  background-size: 100%;
+}
+.card #streamer_naiatv{
+  background-image: url(NaiaTV.png);
   background-size: 100%;
 }
 .card #streamer_newton{
@@ -632,7 +640,7 @@ svg circle
 }
 
 .card #monteur_vidéo{
-  background-image: url(monteur_vidéo.png);
+  background-image: url(Primis.png);
   background-size: 100%;
 }
 

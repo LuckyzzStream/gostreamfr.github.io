@@ -660,12 +660,24 @@ svg circle
   background-image: url('AperoParty.png') ;
   background-size: 100%;
 }
-.card #lebrunch{
-  background-image: url('Le_Brunch.png') ;
+.card #laquot{
+  background-image: url('La_Quot.png') ;
   background-size: 100%;
 }
 .card #qslpm{
   background-image: url('QSLPM.png') ;
+  background-size: 100%;
+}
+.card #qvgdm{
+  background-image: url('QVGDM.png') ;
+  background-size: 100%;
+}
+.card #simuhome{
+  background-image: url('Simu_@_Home.png') ;
+  background-size: 100%;
+}
+.card #soireenouveaux{
+  background-image: url('Soirée_des_Nouveaux.png') ;
   background-size: 100%;
 }
 .card #geohasardfrance{
@@ -676,20 +688,8 @@ svg circle
   background-image: url('Tournoi_GoKart.png') ;
   background-size: 100%;
 }
-.card #multilundi{
-  background-image: url('MultiLundi.png') ;
-  background-size: 100%;
-}
-.card #multimercredi{
-  background-image: url('MultiMercredi.png') ;
-  background-size: 100%;
-}
-.card #multivendredi{
-  background-image: url('MultiVendredi.png') ;
-  background-size: 100%;
-}
-.card #summernight{
-  background-image: url('SummerNight.png') ;
+.card #burgerquiz{
+  background-image: url('Burger_Quiz.png') ;
   background-size: 100%;
 }
 .card #solo_multi{

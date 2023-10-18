@@ -652,6 +652,11 @@ svg circle
   background-size: 100%;
 }
 
+.card #voix_off{
+  background-image: url(Djiox.png);
+  background-size: 100%;
+}
+
 .card #derusher{
   background-image: url(derusher.png);
   background-size: 100%;

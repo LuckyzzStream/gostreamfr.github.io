@@ -531,6 +531,10 @@ svg circle
   background-image: url(DjePasDeSkill.png);
   background-size: 100%;
 }
+.card #streamer_djiox{
+  background-image: url(Djiox.png);
+  background-size: 100%;
+}
 .card #streamer_eriiaa{
   background-image: url(Eriiaa.png);
   background-size: 100%;
@@ -543,6 +547,10 @@ svg circle
   background-image: url(LaGauf.png);
   background-size: 100%;
 }
+.card #streamer_luckyzz{
+  background-image: url(Luckyzz.png);
+  background-size: 100%;
+}
 .card #streamer_lgstronger{
   background-image: url(LGStronger.png);
   background-size: 100%;
@@ -553,10 +561,6 @@ svg circle
 }
 .card #streamer_mysselia{
   background-image: url(Mysselia.png);
-  background-size: 100%;
-}
-.card #streamer_newton{
-  background-image: url(Newton.png);
   background-size: 100%;
 }
 .card #streamer_nietlisbak{
@@ -573,6 +577,10 @@ svg circle
 }
 .card #streamer_tyran_off{
   background-image: url(Tyran_off.png);
+  background-size: 100%;
+}
+.card #streamer_victotoro{
+  background-image: url(Victotoro.png);
   background-size: 100%;
 }
 .card #new_streamer_violet{

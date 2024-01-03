@@ -266,110 +266,6 @@ section{
 }
 
 
-.map-container button{
-  padding: 10px 20px;
-  color: #fff;
-  background: #333;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  margin: 1em;
-}
-
-.map-container p{
-  color: #FFF;
-
-}
-
-
-.map-container button:hover{
-  background: #F03C3C;
-}
-
-.blue{
-  background: #F03C3C ;
-}
-
-.hide {
-  display: none;
-} 
-
-
-
-hr{
-  margin: 0;
-  padding: 0;
-}
-
-/* CSS for responsive iframe */
-/* ========================= */
-
-/* outer wrapper: set max-width & max-height; max-height greater than padding-bottom % will be ineffective and height will = padding-bottom % of max-width */
-#Iframe-Liason-Sheet {
-  max-width: 1294px;
-  max-height: 46.6em; 
-  overflow: hidden;
-  background: #222222;
-  color: #222222;
-}
-/* inner wrapper: make responsive */
-.responsive-wrapper {
-  position: relative;
-  height: 0;    /* gets height from padding-bottom */
-  /* following necessary for proper mobile behavior */
-  -webkit-overflow-scrolling: touch;
-  overflow: auto
-  background: #222;
-  color: #222;
-}
- .responsive-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  border: none;
-  background: #222222;
-  color: #222222;
-}
-/* padding-bottom = h/w as % -- sets aspect ratio */
-/* YouTube video aspect ratio */
-.responsive-wrapper-wxh-650x315 {
-  padding-bottom: 56.25%;
-}
-.responsive-wrapper-wxh-550x2000 {
-  padding-bottom: 363.6364%;
-}
-
-/* general styles */
-/* ============== */
-.set-border {
-  border: 5px inset #4f4f4f;
-}
-.set-box-shadow { 
-  -webkit-box-shadow: 4px 4px 14px #4f4f4f;
-  -moz-box-shadow: 4px 4px 14px #4f4f4f;
-  box-shadow: 4px 4px 14px #4f4f4f;
-}
-.set-padding {
-  padding: 40px;
-}
-.set-margin {
-  margin: 30px;
-}
-.center-block-horiz {
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-
-.prog{
-  border: 0; 
-  background: #222;
-}
 
 hr{
   margin: 0;
@@ -403,9 +299,6 @@ footer h1{
   display: flex;
   justify-content: center;
 }
-
-
-
 
 .container{
   display: flex;
@@ -648,8 +541,8 @@ svg circle
   background-image: url('TEDLA.png') ;
   background-size: 100%;
 }
-.card #bestofclips{
-  background-image: url('Best_Of_Clips.png') ;
+.card #zapgostream{
+  background-image: url('Le_ZAP_GoStream.png') ;
   background-size: 100%;
 }
 .card #minederien{
@@ -660,8 +553,8 @@ svg circle
   background-image: url('AperoParty.png') ;
   background-size: 100%;
 }
-.card #laquot{
-  background-image: url('La_Quot.png') ;
+.card #open{
+  background-image: url('L_Open.png') ;
   background-size: 100%;
 }
 .card #qslpm{
@@ -688,8 +581,20 @@ svg circle
   background-image: url('Tournoi_GoKart.png') ;
   background-size: 100%;
 }
+.card #trashgame{
+  background-image: url('Trash_Game.png') ;
+  background-size: 100%;
+}
 .card #burgerquiz{
   background-image: url('Burger_Quiz.png') ;
+  background-size: 100%;
+}
+.card #enpiste{
+  background-image: url('En_Piste.png') ;
+  background-size: 100%;
+}
+.card #interguess{
+  background-image: url('Interguess.png') ;
   background-size: 100%;
 }
 .card #solo_multi{

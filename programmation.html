@@ -65,68 +65,9 @@
 
 				<br>
 
-		  		<div class="map-container">
-					<div class="inner-basic division-map div-toggle" data-target=".division-details" id="divisiondetail">
-
-					    <button class="map-point-sm" data-show=".semaineactuelle" style="background:#F03C3C;">
-							<div class="content">
-						  		<div class="centered-y">
-									<p>SEMAINE ACTUELLE</p>
-						  		</div>
-							</div>
-					  	</button>
-					  
-					    <button class="map-point-sm" data-show=".semaineprochaine">
-							<div class="content">
-						  		<div class="centered-y">
-									<p>SEMAINE PROCHAINE</p>
-						  		</div>
-							</div>
-					    </button>
-					  
-					  
-					</div>
+				<div style="text-align: center;">
+					<img src="planning.png" width="80%" height="80%">
 				</div>
-
-				<script>
-					$(document).on('click', '.map-point-sm', function() {
-						$(this).css('background-color', '#F03C3C').siblings().css('background-color', '#333333');
-						var show = $(this).data('show');
-						$(show).removeClass("hide").siblings().addClass("hide");
-
-					});
-				</script>
-				  
-				  
-				<div class="map-container">
-					<div class="inner-basic division-details">
-
-						<div class="semaineactuelle">
-							<br>
-							<div id="Iframe-Liason-Sheet" class="iframe-border center-block-horiz">
-				 				<div class="responsive-wrapper responsive-wrapper-wxh-550x2000">
-					   				<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVFO6K0xuqwqxgnuRa2ng6R0HkMq80U3GrlVQozp0_zwCZLUm5m1l5yUgUlorsfKVvbPwa1JTIwEEJ/pubhtml?gid=785633591&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;range=A1:I65"> 
-					     		<p style="font-size: 110%;"><em><strong>ERROR: </strong>An iframe should be displayed here but your browser version does not support iframes.</em> Please update your browser to its most recent version and try again.</p>
-					   				</iframe>
-				 				</div>
-							</div> 
-
-							
-					  	</div>
-						<div class="semaineprochaine hide">
-							<br>
-							<div id="Iframe-Liason-Sheet" class="iframe-border center-block-horiz">
-								<div class="responsive-wrapper responsive-wrapper-wxh-550x2000">
-							   		<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVFO6K0xuqwqxgnuRa2ng6R0HkMq80U3GrlVQozp0_zwCZLUm5m1l5yUgUlorsfKVvbPwa1JTIwEEJ/pubhtml?gid=1061390453&amp;single=true&amp;widget=false&amp;headers=false&amp;chrome=false&amp;range=A1:I65">
-							     	<p style="font-size: 110%;"><em><strong>ERROR: </strong>An iframe should be displayed here but your browser version does not support iframes.</em> Please update your browser to its most recent version and try again.</p>
-							   		</iframe>
-				 				</div>
-							</div> 
-
-						</div>
-					  </div>
-				</div>
-
 
 				<br>
 			</section>
@@ -157,7 +98,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">#TeamStreamers</h2><br>
-									  	  <h2 class="description">Tous les vendredis de 20H30 à 23H30</h2><br>
+									  	  <h2 class="description">Sur les cases prime-time de 21H00 à 23H30</h2><br>
 									  	  <h2 class="info">GAMING • DIVERTISSEMENT</h2>
 									  </div>
 								  	</div>
@@ -182,33 +123,8 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Apéro Party</h2><br>
-									  	  <h2 class="description">Soirée de clôture de saison • ANNUELLE</h2><br>
+									  	  <h2 class="description">Soirée de clôture de saison annuelle de 21H00 à 23H30</h2><br>
 									  	  <h2 class="info">GAMING • DIVERTISSEMENT</h2>
-									  </div>
-								  	</div>
-								  	<div class="bot" onclick="window.location.href = 'emissions.html';">
-								  		<h3><span class="plus">+ </span>D'INFORMATIONS</h3>
-								  	</div>
-								  
-							  	</div>
-
-								<div class="card">
-									<div class="top">
-									
-									</div>
-								  	<div class="content">
-									  <div class="box">
-										<div class="percent" id="bestofclips">
-										  <svg>
-											<circle cx="56" cy="56" r="56"></circle>
-											<circle cx="56" cy="56" r="56"></circle>
-										  </svg>
-										</div>
-									  </div>
-									  <div class="programme">
-									  	  <h2 class="name">Best Of Clips</h2><br>
-									  	  <h2 class="description">Tous les mercredis de 20H30 à 21H00</h2><br>
-									  	  <h2 class="info">DIVERTISSEMENT</h2>
 									  </div>
 								  	</div>
 								  	<div class="bot" onclick="window.location.href = 'emissions.html';">
@@ -232,8 +148,58 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Burger Quiz</h2><br>
-									  	  <h2 class="description">Les mercredis (1/6) de 19H00 à 20H30</h2><br>
+									  	  <h2 class="description">Les mercredis (1/6) de 19H30 à 21H00</h2><br>
 									  	  <h2 class="info">QUIZ • DIVERTISSEMENT</h2>
+									  </div>
+								  	</div>
+								  	<div class="bot" onclick="window.location.href = 'emissions.html';">
+								  		<h3><span class="plus">+ </span>D'INFORMATIONS</h3>
+								  	</div>
+								  
+							  	</div>
+
+							  	<div class="card">
+									<div class="top">
+									
+									</div>
+								  	<div class="content">
+									  <div class="box">
+										<div class="percent" id="interguess">
+										  <svg>
+											<circle cx="56" cy="56" r="56"></circle>
+											<circle cx="56" cy="56" r="56"></circle>
+										  </svg>
+										</div>
+									  </div>
+									  <div class="programme">
+									  	  <h2 class="name">Challenge Interguess</h2><br>
+									  	  <h2 class="description">Les jeudis (2/11) de 21H00 à 23H30</h2><br>
+									  	  <h2 class="info">GAMING • DIVERTISSEMENT</h2>
+									  </div>
+								  	</div>
+								  	<div class="bot" onclick="window.location.href = 'emissions.html';">
+								  		<h3><span class="plus">+ </span>D'INFORMATIONS</h3>
+								  	</div>
+								  
+							  	</div>
+
+							  	<div class="card">
+									<div class="top">
+									
+									</div>
+								  	<div class="content">
+									  <div class="box">
+										<div class="percent" id="enpiste">
+										  <svg>
+											<circle cx="56" cy="56" r="56"></circle>
+											<circle cx="56" cy="56" r="56"></circle>
+										  </svg>
+										</div>
+									  </div>
+									  <div class="programme">
+									  	  <h2 class="name">En Piste</h2><br>
+									  	  <h2 class="description">Les lundis (Après GP de F1) de 21H00 à 23H30</h2><br>
+									  	  <h2 class="info">TALK-SHOW • SPORT</h2>
 									  </div>
 								  	</div>
 								  	<div class="bot" onclick="window.location.href = 'emissions.html';">
@@ -257,7 +223,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Flashback</h2><br>
-									  	  <h2 class="description">À définir...</h2><br>
+									  	  <h2 class="description">Sur les cases access-prime de 18H30 à 21H00</h2><br>
 									  	  <h2 class="info">GAMING • NOSTALGIE</h2>
 									  </div>
 								  	</div>
@@ -282,7 +248,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">GoActu</h2><br>
-									  	  <h2 class="description">Tous les mercredis de 21H00 à 22H30</h2><br>
+									  	  <h2 class="description">Les mercredis (1/2) de 21H00 à 23H30</h2><br>
 									  	  <h2 class="info">TALK-SHOW</h2>
 									  </div>
 								  	</div>
@@ -307,7 +273,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">GoFight</h2><br>
-									  	  <h2 class="description">Les jeudis (4/5) de 20H30 à 23H30</h2><br>
+									  	  <h2 class="description">Les jeudis (2/11) de 21H00 à 23H30</h2><br>
 									  	  <h2 class="info">GAMING • DIVERTISSEMENT</h2>
 									  </div>
 								  	</div>
@@ -332,7 +298,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">GoScream</h2><br>
-									  	  <h2 class="description">Un lundi sur deux de 20H30 à 23H30</h2><br>
+									  	  <h2 class="description">Sur les cases prime-time de 21H00 à 23H30</h2><br>
 									  	  <h2 class="info">GAMING • DIVERTISSEMENT</h2>
 									  </div>
 								  	</div>
@@ -358,7 +324,7 @@
 									  <div class="programme">
 									  	  <h2 class="name">
 									  	  <h2 class="name">GoStream Games</h2><br>
-									  	  <h2 class="description">Les vendredis (1/10) de 20H30 à 23H30</h2><br>
+									  	  <h2 class="description">Les jeudis (1/11) de 20H30 à 23H30</h2><br>
 									  	  <h2 class="info">GAMING • TOURNOI</h2>
 									  </div>
 								  	</div>
@@ -408,7 +374,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">L'Interview</h2><br>
-									  	  <h2 class="description">À définir...</h2><br>
+									  	  <h2 class="description">Les mercredis (1/6) de 18H00 à 19H30</h2><br>
 									  	  <h2 class="info">TALK-SHOW</h2>
 									  </div>
 								  	</div>
@@ -424,7 +390,7 @@
 									</div>
 								  	<div class="content">
 									  <div class="box">
-										<div class="percent" id="laquot">
+										<div class="percent" id="open">
 										  <svg>
 											<circle cx="56" cy="56" r="56"></circle>
 											<circle cx="56" cy="56" r="56"></circle>
@@ -432,8 +398,8 @@
 										</div>
 									  </div>
 									  <div class="programme">
-									  	  <h2 class="name">La Quot</h2><br>
-									  	  <h2 class="description">Du lundi au vendredi de 15h00 à 16h30</h2><br>
+									  	  <h2 class="name">L'Open'</h2><br>
+									  	  <h2 class="description">Les lundis, mercredi et vendredis de 14H00 à 16H00</h2><br>
 									  	  <h2 class="info">TALK-SHOW • GAMING</h2>
 									  </div>
 								  	</div>
@@ -483,7 +449,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Le Duel</h2><br>
-									  	  <h2 class="description">Les jeudis (1/10) de 20H30 à 23H30</h2><br>
+									  	  <h2 class="description">Sur les cases prime-time de 21H00 à 23H30</h2><br>
 									  	  <h2 class="info">GAMING • VERSUS</h2>
 									  </div>
 								  	</div>
@@ -524,6 +490,31 @@
 									</div>
 								  	<div class="content">
 									  <div class="box">
+										<div class="percent" id="zapgostream">
+										  <svg>
+											<circle cx="56" cy="56" r="56"></circle>
+											<circle cx="56" cy="56" r="56"></circle>
+										  </svg>
+										</div>
+									  </div>
+									  <div class="programme">
+									  	  <h2 class="name">Le ZAP de GoStream</h2><br>
+									  	  <h2 class="description">Exclusivité Youtube</h2><br>
+									  	  <h2 class="info">DIVERTISSEMENT</h2>
+									  </div>
+								  	</div>
+								  	<div class="bot" onclick="window.location.href = 'emissions.html';">
+								  		<h3><span class="plus">+ </span>D'INFORMATIONS</h3>
+								  	</div>
+								  
+							  	</div>
+
+							  	<div class="card">
+									<div class="top">
+									
+									</div>
+								  	<div class="content">
+									  <div class="box">
 										<div class="percent" id="liveirl">
 										  <svg>
 											<circle cx="56" cy="56" r="56"></circle>
@@ -533,7 +524,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Live IRL @</h2><br>
-									  	  <h2 class="description">À définir...</h2><br>
+									  	  <h2 class="description">Prochainement...</h2><br>
 									  	  <h2 class="info">IRL • DIVERTISSEMENT</h2>
 									  </div>
 								  	</div>
@@ -558,7 +549,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Mine De Rien</h2><br>
-									  	  <h2 class="description">À définir...</h2><br>
+									  	  <h2 class="description">Prochainement...</h2><br>
 									  	  <h2 class="info">DESSIN • ART</h2>
 									  </div>
 								  	</div>
@@ -583,7 +574,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Music'Battle</h2><br>
-									  	  <h2 class="description">4e samedi du mois de 20h30 à 23h30</h2><br>
+									  	  <h2 class="description">Les jeudis (2/11) de 21H00 à 23H30</h2><br>
 									  	  <h2 class="info">QUIZ • DIVERTISSEMENT</h2>
 									  </div>
 								  	</div>
@@ -658,7 +649,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Salut Le Tchat</h2><br>
-									  	  <h2 class="description">Tous les mercredis de 22H30 à 23H30</h2><br>
+									  	  <h2 class="description">À définir...</h2><br>
 									  	  <h2 class="info">TALK-SHOW • DÉBATS</h2>
 									  </div>
 								  	</div>
@@ -683,7 +674,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Simu @ Home</h2><br>
-									  	  <h2 class="description">2e samedi du mois de 20h30 à 23h30</h2><br>
+									  	  <h2 class="description">Sur les cases prime-time de 21H00 à 23H30</h2><br>
 									  	  <h2 class="info">GAMING • DIVERTISSEMENT</h2>
 									  </div>
 								  	</div>
@@ -708,7 +699,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Soirée des Nouveaux</h2><br>
-									  	  <h2 class="description">Occasionnellement de 20h30 à 23h30</h2><br>
+									  	  <h2 class="description">Sur les cases prime-time de 21H00 à 23H30</h2><br>
 									  	  <h2 class="info">GAMING • DIVERTISSEMENT</h2>
 									  </div>
 								  	</div>
@@ -733,7 +724,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Switch Party</h2><br>
-									  	  <h2 class="description">Un lundi sur deux de 20H30 à 23H30</h2><br>
+									  	  <h2 class="description">Sur les cases prime-time de 21H00 à 23H30</h2><br>
 									  	  <h2 class="info">GAMING • DIVERTISSEMENT</h2>
 									  </div>
 								  	</div>
@@ -758,7 +749,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Tournoi Geohasard Saison 4</h2><br>
-									  	  <h2 class="description">Tous les mardis de 20H30 à 23H30</h2><br>
+									  	  <h2 class="description">Les mardis (1/4) de 21H00 à 23H30</h2><br>
 									  	  <h2 class="info">GAMING • DIVERTISSEMENT</h2>
 									  </div>
 								  	</div>
@@ -783,57 +774,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Tournoi Geohasard France Saison 1</h2><br>
-									  	  <h2 class="description">3e samedi du mois de 20H30 à 23H30</h2><br>
-									  	  <h2 class="info">GAMING • DIVERTISSEMENT</h2>
-									  </div>
-								  	</div>
-								  	<div class="bot" onclick="window.location.href = 'emissions.html';">
-								  		<h3><span class="plus">+ </span>D'INFORMATIONS</h3>
-								  	</div>
-								  
-							  	</div>
-
-							  	<div class="card">
-									<div class="top">
-									
-									</div>
-								  	<div class="content">
-									  <div class="box">
-										<div class="percent" id="tedla">
-										  <svg>
-											<circle cx="56" cy="56" r="56"></circle>
-											<circle cx="56" cy="56" r="56"></circle>
-										  </svg>
-										</div>
-									  </div>
-									  <div class="programme">
-									  	  <h2 class="name">Tout est dans l'Assiette</h2><br>
-									  	  <h2 class="description">5e samedi du mois de 20h30 à 23h30</h2><br>
-									  	  <h2 class="info">CUISINE • TALK-SHOW</h2>
-									  </div>
-								  	</div>
-								  	<div class="bot" onclick="window.location.href = 'emissions.html';">
-								  		<h3><span class="plus">+ </span>D'INFORMATIONS</h3>
-								  	</div>
-								  
-							  	</div>
-
-							  	<div class="card">
-									<div class="top">
-									
-									</div>
-								  	<div class="content">
-									  <div class="box">
-										<div class="percent" id="traintonmate">
-										  <svg>
-											<circle cx="56" cy="56" r="56"></circle>
-											<circle cx="56" cy="56" r="56"></circle>
-										  </svg>
-										</div>
-									  </div>
-									  <div class="programme">
-									  	  <h2 class="name">Train Ton Mate</h2><br>
-									  	  <h2 class="description">1e samedi du mois de 20h30 à 23h30</h2><br>
+									  	  <h2 class="description">Les mardis (1/4) de 21H00 à 23H30</h2><br>
 									  	  <h2 class="info">GAMING • DIVERTISSEMENT</h2>
 									  </div>
 								  	</div>
@@ -858,8 +799,108 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Tournoi GoKart</h2><br>
-									  	  <h2 class="description">Tous les samedis de 16h00 à 18h30</h2><br>
-									  	  <h2 class="info">GAMING • TOURNOI</h2>
+									  	  <h2 class="description">Les mardis (2/4) de 21H00 à 23H30</h2><br>
+									  	  <h2 class="info">GAMING • TOURNOI • COMMUNAUTAIRE</h2>
+									  </div>
+								  	</div>
+								  	<div class="bot" onclick="window.location.href = 'emissions.html';">
+								  		<h3><span class="plus">+ </span>D'INFORMATIONS</h3>
+								  	</div>
+								  
+							  	</div>
+
+							  	<div class="card">
+									<div class="top">
+									
+									</div>
+								  	<div class="content">
+									  <div class="box">
+										<div class="percent" id="tedla">
+										  <svg>
+											<circle cx="56" cy="56" r="56"></circle>
+											<circle cx="56" cy="56" r="56"></circle>
+										  </svg>
+										</div>
+									  </div>
+									  <div class="programme">
+									  	  <h2 class="name">Tout est dans l'Assiette</h2><br>
+									  	  <h2 class="description">À définir...</h2><br>
+									  	  <h2 class="info">CUISINE • TALK-SHOW</h2>
+									  </div>
+								  	</div>
+								  	<div class="bot" onclick="window.location.href = 'emissions.html';">
+								  		<h3><span class="plus">+ </span>D'INFORMATIONS</h3>
+								  	</div>
+								  
+							  	</div>
+
+							  	<div class="card">
+									<div class="top">
+									
+									</div>
+								  	<div class="content">
+									  <div class="box">
+										<div class="percent" id="traintonmate">
+										  <svg>
+											<circle cx="56" cy="56" r="56"></circle>
+											<circle cx="56" cy="56" r="56"></circle>
+										  </svg>
+										</div>
+									  </div>
+									  <div class="programme">
+									  	  <h2 class="name">Train Ton Mate</h2><br>
+									  	  <h2 class="description">Sur les cases prime-time de 21H00 à 23H30</h2><br>
+									  	  <h2 class="info">GAMING • DIVERTISSEMENT</h2>
+									  </div>
+								  	</div>
+								  	<div class="bot" onclick="window.location.href = 'emissions.html';">
+								  		<h3><span class="plus">+ </span>D'INFORMATIONS</h3>
+								  	</div>
+								  
+							  	</div>
+
+							  	<div class="card">
+									<div class="top">
+									
+									</div>
+								  	<div class="content">
+									  <div class="box">
+										<div class="percent" id="trashgame">
+										  <svg>
+											<circle cx="56" cy="56" r="56"></circle>
+											<circle cx="56" cy="56" r="56"></circle>
+										  </svg>
+										</div>
+									  </div>
+									  <div class="programme">
+									  	  <h2 class="name">Trash Game</h2><br>
+									  	  <h2 class="description">Sur les cases prime-time de 21H00 à 23H30</h2><br>
+									  	  <h2 class="info">GAMING • DIVERTISSEMENT</h2>
+									  </div>
+								  	</div>
+								  	<div class="bot" onclick="window.location.href = 'emissions.html';">
+								  		<h3><span class="plus">+ </span>D'INFORMATIONS</h3>
+								  	</div>
+								  
+							  	</div>
+
+							  	<div class="card">
+									<div class="top">
+									
+									</div>
+								  	<div class="content">
+									  <div class="box">
+										<div class="percent" id="viewersparty">
+										  <svg>
+											<circle cx="56" cy="56" r="56"></circle>
+											<circle cx="56" cy="56" r="56"></circle>
+										  </svg>
+										</div>
+									  </div>
+									  <div class="programme">
+									  	  <h2 class="name">Viewers Party</h2><br>
+									  	  <h2 class="description">Sur les cases access-prime de 18H30 à 21H00</h2><br>
+									  	  <h2 class="info">GAMING • DIVERTISSEMENT • COMMUNAUTAIRE</h2>
 									  </div>
 								  	</div>
 								  	<div class="bot" onclick="window.location.href = 'emissions.html';">
@@ -883,7 +924,7 @@
 									  </div>
 									  <div class="programme">
 									  	  <h2 class="name">Solo x Multi</h2><br>
-									  	  <h2 class="description">Entre 16h30 et 20h30 en fonction des jours</h2><br>
+									  	  <h2 class="description">Entre 14h00 et 21h00 en fonction des jours</h2><br>
 									  	  <h2 class="info">GAMING/JUST CHATTING • DIVERTISSEMENT</h2>
 									  </div>
 								  	</div>
@@ -897,6 +938,7 @@
 
 				</div>
 
+				<br>
 
 
 			</section>
@@ -906,7 +948,7 @@
 
 
 		  	<footer>
-        			<h3>GoStream.fr - 2023 © tous droits réservés</h3>
+        			<h3>GoStream.fr - 2024 © tous droits réservés</h3>
     			<h4><a href="mentionslegales.html">MENTIONS LÉGALES</a> • <a href="candidature.html">CANDIDATURE</a></h4>
 			</footer>
   	
